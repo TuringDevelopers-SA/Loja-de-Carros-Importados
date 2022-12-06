@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Guilherme de Souza Luiz, 2022">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="..\scripts\slider.js"></script>
+    <title>Loja de Carros</title>
+</head>
+<body>
+    
+
+    <header>
+        <img src="../images/LOGO.png" id="logo" alt="logo">
+        
+    </header>
+    <div id="box2">
+        <ul>
+            <li><a href="#logo">Home</a></li>
+            <li><a href="#destaque">Destaque</a></li>
+            <li><a href="#page7">Catálogo</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Faq</a></li>
+        </ul>
+
+            <div class="cont">
+                <a href="login.php" title="login" target="_blank"><i class='bx bx-user'></i></a>
+                <a href="https://goo.gl/maps/SDWKbbHUjYHyzwY88" title="local" target="_blank"><i class='bx bx-map'></i></a>
+            </div>
+    </div>
+    <div class="nav" id="nav">
+        
+        <nav class="nav__content">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+                <p>X</p>
+                
+            </div>
+            <div id="lista">
+                <a href="" class="list">Home</a>
+                <a href="#destaque" class="list">Destaque</a>
+                <a href="#page7" class="list">Catálogo</a>
+                <a href="#" class="list">Sobre</a>
+                <a href="" class="list">Faq</a>
+            </div>
+
+            </div>
+        </nav>
+    </div>
+    <div class="box">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="info">
+                    <h1>EXPERIÊNCIA BUGATTI MISTRAL</h1>
+                    <h2>O ÚLTIMO BUGATTI A USAR O W16 POWERTRAIN.<br>
+                        99 UNIDADES PRODUZIDAS, PARA NUNCA SEREM REPRODUZIDAS.<br>
+                        O ULTIMATE ROADSTER INSPIRADO POR UM VENTO LENDÁRIO.</h2>
+                    <a href="bugattimistral.html" target="_blank" id="mais">DESCOBRIR MAIS</a>
+                </div>
+            </div>
+    
+            <div class="mySlides fade">
+    
+                <div class="info2">
+                    <h1>LAMBORGHINI HURACAN</h1>
+                    <h2>DESCUBRA TODOS OS NOVOS MODELOS DESTA FAMÍLIA DE CARROS EXCLUSIVOS <br>
+                        CRIADOS PARA MOLDAR SUAS EMOÇÕES MAIS PROFUNDAS.<br>
+                        O LAMBORGHINI HURACAN É A FUSÃO PERFEITA DE TECNOLOGIA E DESIGN.</h2>
+                    <a href="huracan.html" target="_blank" id="mais">DESCOBRIR MAIS</a>
+                </div>
+            </div>
+    
+            <div class="mySlides fade">
+    
+                <div class="info3">
+                    <h1>FERRARI SF90 STRADALE</h1>
+                    <h2>FERRARI ALÉM DA TECNOLOGIA.<br>
+                        O SF90 STRADALE É O PRIMEIRO FERRARI A APRESENTAR A ARQUITETURA PHEV<br>
+                        MOTOR DE COMBUSTÃO INTERNA INTEFRADO COM TRÊS MOTORES ELÉTRICOS</h2>
+                    <a href="ferraristradale.html" target="_blank" id="mais">DESCOBRIR MAIS</a>
+                </div>
+            </div>
+    
+            <div class="mySlides fade">
+    
+                <div class="info4">
+                    <h1>MASERATTI MC20 CIELO</h1>
+                    <h2>PROJETADO PARA EXCITAR OS SENTIDOS EM CADA DETALHE.<br>
+                       O MC20 CIELO PROPORCIONA UMA EXPERIÊNCIA INCOMPARÁVEL.<br>
+                       TONS OCEÂNICOS INSPIRADOS NO MAR E NA ENERGIA INQUIETA.</h2>
+                    <a href="mc20cielo.html" target="_blank" id="mais">DESCOBRIR MAIS</a>
+                </div>
+            </div>
+    
+            <div class="mySlides fade">
+    
+                <div class="info5">
+                    <h1>AUDI ETRON GT</h1>
+                    <h2>A GEOMETRIA DA ACELERAÇÃO.<br>
+                        FUSÃO PERFEITA ENTRE ESPORTIVIDADE E ELEGÂNCIA<br>
+                        ESPORTIVIDADE E USABILIDADE PARA O DIA A DIA.</h2>
+                    <a href="audietron.html" target="_blank" id="mais">DESCOBRIR MAIS</a>
+                </div>
+            </div>
+    
+            <div style="text-align:center; margin:-5vh;">
+    
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+    
+            </div>
+            <a class="prev" onclick="prevSlide()">&#10094;</a>
+            <a class="next" onclick="showSlides()">&#10095;</a>
+        </div>
+    </div>
+
+    <section>
+        <div class="parent">
+            <div class="div1"> </div>
+            <div class="div2"> </div>
+            <div class="div3"> </div>
+        </div>
+    </section>
+
+    <section id="destaque">
+        <img src="../images/mc20back3.png" id="mc20" alt="">
+    </section>
+
+    <section id="page3">
+        <img src="../images/mc20aero.png" id="mc20aero" alt="">
+    </section>
+
+    <section id="page4">
+        <h3 id="title1">CORES ÚNICAS</h3>
+        <img src="../images/mc20neutro.png" id="mySlides" class="mc20neutro" alt="">
+        <div class="buttons">
+            <button class="button vermelho" onclick="document.getElementById('mySlides').src='../images/mc20vermelho.png'" title="rosso vincente"></button>
+
+            <button class="button amarelo" onclick="document.getElementById('mySlides').src='../images/mc20amarelo.png'" title="giallo genio"></button>
+
+            <button class="button azul" onclick="document.getElementById('mySlides').src='../images/mc20azul.png'" title="blu infinito"></button>
+
+            <button class="button branco" onclick="document.getElementById('mySlides').src='../images/mc20branco.png'" title="bianco audace"></button>
+
+            <button class="button cinza" onclick="document.getElementById('mySlides').src='../images/mc20cinza.png'" title="grigio mistero"></button>
+
+            <button class="button preto" onclick="document.getElementById('mySlides').src='../images/mc20preto.png'" title="nero essenza"></button>
+
+            <button class="button neutro" onclick="document.getElementById('mySlides').src='../images/mc20neutro.png'" title="sketch"></button>
+        </div> 
+    </section>
+
+    <section id="page5">
+        <img src="../images/motormc20.png" id="motor" alt="motor">
+        <img src="../images/startstopoff.png" alt="startstop" id="start" onclick="document.getElementById('start').src='../images/starstopon.png'">
+        <audio id="audio" src="../images/mc20-ringtone.mp3"></audio>
+    </section>
+
+    <section id="page6">
+        <img src="../images/interiormc202.png" id="interior" alt="interiormc20">
+    </section>
+
+    <section id="page7">
+        <img src="../images/catalogo.png" id="catalog" alt="">
+        <div id="catalogo">
+            <div class="card">
+                <img class="car" src="../images/maseratti.jpg" alt="carro">
+                <div class="infos" id="model"><strong>Maserati</strong> <br>Granturismo</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 600.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>490</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/RIBELLE2.jpg" alt="carrp">
+                <div class="infos" id="model"><strong>Maserati</strong> <br>Ribelle</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 800.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>275</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/Audi-e-tron-GT.jpg" alt="">
+                <div class="infos" id="model"><strong>Audi</strong> <br>Etron GT</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 999.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>408</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/sf902.jpg" alt="">
+                <div class="infos" id="model"><strong>Ferrari</strong> <br>SF90 Stradale</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 8.000.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>1124</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/LAMBORGHINI-HURACAN-PERFORMANTE.jpg" alt="">
+                <div class="infos" id="model"><strong>Lamborghini</strong> <br>Huracan</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 3.500.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>640</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/jaguarftype.jpg" alt="">
+                <div class="infos" id="model"><strong>Jaguar</strong> <br>F Type</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 560.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>450</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/m8.jpg" alt="">
+                <div class="infos" id="model"><strong>BMW</strong> <br>M8</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 1.300.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>625</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/bugatti-divo.jpg" alt="">
+                <div class="infos" id="model"><strong>Bugatti</strong> <br>Divo</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 5.000.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>1500</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/Porsche-911-GT3-2022 (1).jpeg" alt="">
+                <div class="infos" id="model"><strong>Porsche</strong> <br>taycan</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 740.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>761</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/Mercedes-Benz-GT-AMG-GT-Coupe-2020.jpg" alt="">
+                <div class="infos" id="model"><strong>Mercedes</strong> <br>GT AMG COUPE</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 2.000.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>580</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/quattroporte.jpg" alt="">
+                <div class="infos" id="model"><strong>Maserati</strong> <br>Quattroporte</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 1.400.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>530</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <div class="card">
+                <img class="car" src="../images/ftype.jpg" alt="">
+                <div class="infos" id="model"><strong>Jaguar</strong> <br>F Type Black Edition</div>
+                <div class="infos"><strong>Ano</strong> <br> 2022</div>
+                <div class="infos"><strong>Valor</strong> <br> 700.000 R$ </div>
+                <div class="infos"><strong>CV</strong> <br>450</div>
+                <a href="#catalogo" id="more">Detalhes</a>
+            </div>
+            <legend>catalogo meramente ilustrativo, entre em contato para saber a disponibilidade dos veiculos em nosso estoque.</legend>
+        </div>
+    </section>
+
+    <section id="page9">
+        <div class="contato">
+            <h5>Entre em Contato</h5> 
+            <span><strong>Telefone</strong> <br> 11 4561-2223</span>
+            <br> <br>
+            <span><strong>Email</strong> <br>europacar@gmail.com</span>
+            <br> <br>
+            <span><strong>Whatsapp</strong> <br> 11 98819-3371</span>
+        </div>
+        <div class="contato">
+            <h5>Midias Sociais</h5>
+            <a href="" class="fa fa-facebook" target="_blank"> &nbsp; Europa Carros Importados</a> <br>
+            <a href="" class="fa fa-instagram" target="_blank"> &nbsp; europa_car</a> <br>
+            <a href="" class="fa fa-twitter" target="_blank"> &nbsp; europa_car</a> <br>
+            <a href="" class="fa fa-whatsapp" target="_blank"> &nbsp;11 98819-3371</a>
+        </div>
+        <div class="contato">
+            <h5>Local</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14628.209305375112!2d-46.65968273022461!3d-23.566564099999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b88451a681%3A0xe7a211eccd7317e8!2sAv.%20Paulista%2C%20807%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-100!5e0!3m2!1spt-BR!2sbr!4v1670288096107!5m2!1spt-BR!2sbr"  width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <h6>&copy; &nbsp;2022 Todos direitos reservados</h6>
+        <h6>Developed by <a href="">TuringDevs</a> </h6>
+    </footer>
+
+    <script>
+        const linkColor = document.querySelectorAll('.nav__link')
+
+        function colorLink(){
+            linkColor.forEach(l => l.classList.remove('active-link'))
+            this.classList.add('active-link')
+        }
+
+        linkColor.forEach(l => l.addEventListener('click', colorLink))
+
+        const showMenu = (toggleId, navbarId) =>{
+            const toggle = document.getElementById(toggleId),
+            navbar = document.getElementById(navbarId)
+
+            if(toggle && navbar){
+                toggle.addEventListener('click', ()=>{
+                    
+                    navbar.classList.toggle('show-menu')
+                   
+                    toggle.classList.toggle('rotate-icon')
+        })
+    }
+}
+        showMenu('nav-toggle','nav')
+
+            // audio motor //
+
+            const rollSound = document.getElementById('audio');
+            const btn = document.getElementById('start');
+
+            btn.addEventListener("click", e => rollSound.paused ? rollSound.play() : rollSound.pause(rollSound.currentTime = 0));
+
+            btn.addEventListener("click", e => btn = rollSound.paused ? btn.src='../images/startstopoff.png' : btn.src='../images/starstopon.png');
+
+            img = document.getElementById('interior')
+            cockpit = document.getElementsByClassName('zoom');
+
+
+    
+        </script>
+</body>
+</html>
