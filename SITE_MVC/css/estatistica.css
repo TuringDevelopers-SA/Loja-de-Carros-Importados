@@ -1,0 +1,82 @@
+@import "https://code.highcharts.com/css/highcharts.css";
+body{
+    width: 95%;
+    height: 100vh;
+    float: right;
+    background-color: grey;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 0px;
+}
+#container {
+height: 400px;
+}
+.highcharts-figure,
+.highcharts-data-table table {
+min-width: 310px;
+width: 89%;
+margin: 60px auto;
+}
+
+#sliders td input[type="range"] {
+display: inline;
+}
+
+#sliders td {
+padding-right: 1em;
+white-space: nowrap;
+}
+
+#backButton {
+border-radius: 4px;
+padding: 8px;
+border: none;
+font-size: 16px;
+background-color: #2eacd1;
+color: white;
+position: absolute;
+top: 10px;
+right: 10px;
+cursor: pointer;
+}
+.invisible {
+  display: none;
+}
+#chartContainer{
+  width: 45%;
+  height: 400px;
+  margin-bottom: 60px;
+}
+#chartContainer2{
+  width: 45%;
+  height: 400px;
+}
+#container2{
+  max-width: 530px;
+  margin-right: 5%;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 60px;
+}
+#container3{
+  width: 89%;
+  height: 400px;
+  margin-bottom: 60px;
+}
+#container4{
+  max-width: 530px;
+  width: 90%;
+  height: 400px;
+  margin-bottom: 60px;
+}
+@media (max-width: 1200px) {
+  body{
+    width: 100%;
+  }
+  #container2{
+    margin-right: 0;
+  }
+  
+}
